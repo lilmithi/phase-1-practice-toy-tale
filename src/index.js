@@ -100,5 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
         container.appendChild(toyCard);
       })
       .catch(() => alert("POST Error!!"));
+    form.reset();
   });
 });
